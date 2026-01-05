@@ -1,0 +1,12 @@
+/home/Coder/Guzman/CoursesOnline/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/Coder/Guzman/CoursesOnline/Domain/bin/Debug/net8.0/Domain.dll
+/home/Coder/Guzman/CoursesOnline/Domain/bin/Debug/net8.0/Domain.pdb
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.dll
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/Domain.pdb
+/home/Coder/Guzman/CoursesOnline/Domain/obj/Debug/net8.0/ref/Domain.dll

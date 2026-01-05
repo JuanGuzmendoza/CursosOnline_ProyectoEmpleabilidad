@@ -1,0 +1,13 @@
+using CoursesOnline.Domain.Enums;
+
+namespace CoursesOnline.Application.DTOs
+{
+    public class CourseDto
+    {
+        public Guid Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public CourseStatus Status { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+    }
+}
