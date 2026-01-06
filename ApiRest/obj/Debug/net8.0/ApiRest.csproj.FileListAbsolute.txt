@@ -151,3 +151,4 @@
 /home/Coder/Guzman/CoursesOnline/ApiRest/obj/Debug/net8.0/ApiRest.pdb
 /home/Coder/Guzman/CoursesOnline/ApiRest/obj/Debug/net8.0/ApiRest.genruntimeconfig.cache
 /home/Coder/Guzman/CoursesOnline/ApiRest/obj/Debug/net8.0/ref/ApiRest.dll
+/home/Coder/Guzman/CoursesOnline/ApiRest/obj/Debug/net8.0/ApiRest.sourcelink.json

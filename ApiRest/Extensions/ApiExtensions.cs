@@ -14,6 +14,15 @@ namespace CoursesOnline.Extensions
             this IServiceCollection services,
             IConfiguration configuration)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
             // Controllers
             services.AddControllers();
             services.AddEndpointsApiExplorer();
