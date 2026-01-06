@@ -1,0 +1,27 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5282:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - courses-network
+
+  frontend:
+    build:
+      context: ./CursosOnlineFront
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+    depends_on:
+      - backend
+    networks:
+      - courses-network
+
+networks:
+  courses-network:
+    driver: bridge

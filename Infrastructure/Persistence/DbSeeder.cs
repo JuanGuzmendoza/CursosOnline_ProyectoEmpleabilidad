@@ -27,7 +27,7 @@ namespace CoursesOnline.Infrastructure.Persistence
                     EmailConfirmed = true
                 };
 
-                if ((await userManager.CreateAsync(admin, "Admin123!")).Succeeded)
+                    if ((await userManager.CreateAsync(admin, "Admin123!")).Succeeded)
                     await userManager.AddToRoleAsync(admin, "Admin");
             }
 
